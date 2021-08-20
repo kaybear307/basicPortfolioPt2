@@ -5,14 +5,17 @@
 
 header {
     width: 100%;
-    background-color: #333333;
+    background-color: lightblue;
     border-radius: 10px;
+    border-radius: 50% 50% 0% 0%;
 }
 #navbar {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    background-color: lightgoldenrodyellow;
+    background-color:rgba(6, 6, 46, 0.5);
+    border: black double;
+    border-width: 5px;
     align-items: center;
     border-radius: 20px;
 }
@@ -20,15 +23,15 @@ header {
     font-size: 20px;
 }
 .button {
-    background-color: palegreen;
-    color: black;
+    background-color: silver;
+    color: white;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 10px 50px;
     font-size: 16px;
     cursor: pointer;
 }
 #resume {
-	background-color: rgb(84, 240, 84);
+	background-color: goldenrod;
 	border-width: 4px;
 }
 
@@ -55,7 +58,8 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 4px;
-	background-color: rgb(255, 238, 205);
+	background-color: rgba(6, 6, 46, 0.5);
+    border: black double;
     align-items: center;
     margin: 10px;
     border-radius: 10px;
@@ -63,5 +67,5 @@ h1 {
 #socials a {
     padding: 5px 20px;
 	text-decoration: none;
-	color: teal;
+	color: white;
 }
